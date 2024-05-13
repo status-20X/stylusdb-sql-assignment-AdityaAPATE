@@ -1,0 +1,80 @@
+{
+<<<<<<< HEAD
+  "name": "stylusdbstudy",
+  "version": "0.0.1",
+  "description": "Learning how to create a database from scratch",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-verbose": "jest --verbose",
+    "test:final": "jest --testPathPattern=./tests/final",
+    "test:largeFile": "jest --testPathPattern=./tests/final/approximateLargeFile.test.js",
+=======
+  "name": "stylusdb-sql",
+  "version": "0.1.6",
+  "description": "A minimal SQL based DB based on CSV files. For educational purposes only.",
+  "main": "./src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest",
+>>>>>>> origin/main
+    "test:1": "jest --testPathPattern=./tests/step-01",
+    "test:2": "jest --testPathPattern=./tests/step-02",
+    "test:3": "jest --testPathPattern=./tests/step-03",
+    "test:4": "jest --testPathPattern=./tests/step-04",
+    "test:5": "jest --testPathPattern=./tests/step-05",
+    "test:6": "jest --testPathPattern=./tests/step-06",
+    "test:7": "jest --testPathPattern=./tests/step-07",
+    "test:8": "jest --testPathPattern=./tests/step-08",
+    "test:9": "jest --testPathPattern=./tests/step-09",
+    "test:10": "jest --testPathPattern=./tests/step-10",
+    "test:11": "jest --testPathPattern=./tests/step-11",
+    "test:12": "jest --testPathPattern=./tests/step-12",
+    "test:13": "jest --testPathPattern=./tests/step-13",
+    "test:14": "jest --testPathPattern=./tests/step-14",
+    "test:15": "jest --testPathPattern=./tests/step-15",
+    "test:16": "jest --testPathPattern=./tests/step-16",
+    "test:17": "jest --testPathPattern=./tests/step-17",
+    "test:18": "jest --testPathPattern=./tests/step-18",
+    "test:19": "jest --testPathPattern=./tests/step-19",
+<<<<<<< HEAD
+    "test:20": "jest --testPathPattern=./tests/step-20"
+  },
+  "bin": {
+    "stylusdb-cli": "node ./cli.js"
+  },
+  "keywords": [],
+  "author": "Zolo-Ryan",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+=======
+    "test:20": "jest --testPathPattern=./tests/step-20",
+    "test-verbose": "jest --verbose",
+    "server": "node ./src/server.js"
+  },
+  "bin": {
+    "stylusdb-cli": "node ./src/cli.js"
+  },
+  "keywords": [],
+  "author": "Chakshu Gautam",
+  "license": "ISC",
+  "devDependencies": {
+>>>>>>> origin/main
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+<<<<<<< HEAD
+    "hll": "^2.0.0",
+    "json2csv": "^6.0.0-alpha.2"
+  }
+}
+=======
+    "json2csv": "^6.0.0-alpha.2",
+    "xterm": "^5.3.0"
+  }
+}
+>>>>>>> origin/main
